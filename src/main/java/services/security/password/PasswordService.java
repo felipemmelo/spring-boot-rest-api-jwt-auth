@@ -18,7 +18,7 @@ public class PasswordService {
 	@PostConstruct
     public void init() {
     	this.passwordEncoder = new StandardPasswordEncoder(this.secret);
-    }
+	}	
 	
 	public String encode(String rawPassword) {
 		return this.passwordEncoder.encode(rawPassword);
