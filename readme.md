@@ -84,7 +84,7 @@ There are three API entries to be tested, the public, the authorization and the 
 
 To test the public API we can do: `curl http://localhost:8080/api/public/request/felipe`
 
-From this request we expect the response: ** 'felipe' came from a UNsecure channel **.
+From this request we expect the response: ** \'felipe\' came from a UNsecure channel **.
 
 ### Step 6.2. Accessing the authorization API
 
