@@ -105,17 +105,3 @@ That is a valid JWT which we can now use to access the secure API by issuing a r
 `curl -H "x-auth token:eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIyN2MyZTg2MC0yNjhmLTQ4MWItODY4NS1kNTIzNDkzYTIzMzAiLCJzdWIiOiJ1c2VyMSIsInJvbGVzIjpbIlJPTEVfVVNFUiIsIlJPTEVfQURNSU4iXSwiaWF0IjoxNDk4NDk2MDUzLCJleHAiOjE0OTg1ODI0NTN9.OArYFUGLqc2YMLogFVFUkpvLbpj3dOWq9LeM3sPruT-JybYZcriL8sK_kwrTvKUXjXSvZRT4JRp2cnQCAi3XxQ" http://localhost:8080/api/secure/request/felipe`
 
 Since we have sent a valid authentication token, we now have access to the secure API, thus, the response to the previous request must be: ** 'felipe' came from a secure channel. **.
-
-
-
-
-
-
-
-
-
-
-
-
-user1 pass1
-user2 pass2
